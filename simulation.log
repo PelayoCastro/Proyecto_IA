@@ -1,0 +1,302 @@
+2025-03-30 20:14:48,145 - INFO - Ensuring data files are generated in 'data'...
+2025-03-30 20:14:48,149 - INFO - Power stations config file regenerated: 'data\power_stations_config.csv'
+2025-03-30 20:14:48,149 - ERROR - Error during data file generation: name 'total_pattern' is not defined
+2025-03-30 20:14:48,149 - ERROR - An unexpected error occurred during the simulation.
+Traceback (most recent call last):
+  File "C:\Users\pelay\PycharmProjects\CUENF\Project\environment.py", line 203, in <module>
+    sim_env = HydroSimEnvironment(data_dir='data')
+  File "C:\Users\pelay\PycharmProjects\CUENF\Project\environment.py", line 79, in __init__
+    generate_data_files(self.data_dir)
+  File "C:\Users\pelay\PycharmProjects\CUENF\Project\environment.py", line 50, in generate_data_files
+    exec(open(os.path.join(module_path, 'precipitation_data.py')).read())
+  File "<string>", line 31, in <module>
+  File "<string>", line 31, in <listcomp>
+NameError: name 'total_pattern' is not defined
+2025-03-30 20:19:10,087 - INFO - Power stations file regenerated
+2025-03-30 20:19:10,096 - INFO - Precipitation file regenerated
+2025-03-30 20:19:10,112 - INFO - Prices file regenerated
+2025-03-30 20:19:10,633 - INFO - Processed week 1 of 52
+2025-03-30 20:19:11,156 - INFO - Processed week 2 of 52
+2025-03-30 20:19:11,660 - INFO - Processed week 3 of 52
+2025-03-30 20:19:12,144 - INFO - Processed week 4 of 52
+2025-03-30 20:19:12,660 - INFO - Processed week 5 of 52
+2025-03-30 20:19:13,138 - INFO - Processed week 6 of 52
+2025-03-30 20:19:13,575 - INFO - Processed week 7 of 52
+2025-03-30 20:19:13,967 - INFO - Processed week 8 of 52
+2025-03-30 20:19:14,370 - INFO - Processed week 9 of 52
+2025-03-30 20:19:14,774 - INFO - Processed week 10 of 52
+2025-03-30 20:19:15,164 - INFO - Processed week 11 of 52
+2025-03-30 20:19:15,580 - INFO - Processed week 12 of 52
+2025-03-30 20:19:15,967 - INFO - Processed week 13 of 52
+2025-03-30 20:19:16,357 - INFO - Processed week 14 of 52
+2025-03-30 20:19:16,736 - INFO - Processed week 15 of 52
+2025-03-30 20:19:17,106 - INFO - Processed week 16 of 52
+2025-03-30 20:19:17,494 - INFO - Processed week 17 of 52
+2025-03-30 20:19:17,874 - INFO - Processed week 18 of 52
+2025-03-30 20:19:18,253 - INFO - Processed week 19 of 52
+2025-03-30 20:19:18,641 - INFO - Processed week 20 of 52
+2025-03-30 20:19:19,033 - INFO - Processed week 21 of 52
+2025-03-30 20:19:19,453 - INFO - Processed week 22 of 52
+2025-03-30 20:19:19,874 - INFO - Processed week 23 of 52
+2025-03-30 20:19:20,258 - INFO - Processed week 24 of 52
+2025-03-30 20:19:20,689 - INFO - Processed week 25 of 52
+2025-03-30 20:19:21,085 - INFO - Processed week 26 of 52
+2025-03-30 20:19:21,635 - INFO - Processed week 27 of 52
+2025-03-30 20:19:21,997 - INFO - Processed week 28 of 52
+2025-03-30 20:19:22,392 - INFO - Processed week 29 of 52
+2025-03-30 20:19:22,784 - INFO - Processed week 30 of 52
+2025-03-30 20:19:23,181 - INFO - Processed week 31 of 52
+2025-03-30 20:19:23,580 - INFO - Processed week 32 of 52
+2025-03-30 20:19:23,982 - INFO - Processed week 33 of 52
+2025-03-30 20:19:24,367 - INFO - Processed week 34 of 52
+2025-03-30 20:19:24,765 - INFO - Processed week 35 of 52
+2025-03-30 20:19:25,149 - INFO - Processed week 36 of 52
+2025-03-30 20:19:25,579 - INFO - Processed week 37 of 52
+2025-03-30 20:19:25,973 - INFO - Processed week 38 of 52
+2025-03-30 20:19:26,355 - INFO - Processed week 39 of 52
+2025-03-30 20:19:26,763 - INFO - Processed week 40 of 52
+2025-03-30 20:19:27,156 - INFO - Processed week 41 of 52
+2025-03-30 20:19:27,543 - INFO - Processed week 42 of 52
+2025-03-30 20:19:27,956 - INFO - Processed week 43 of 52
+2025-03-30 20:19:28,349 - INFO - Processed week 44 of 52
+2025-03-30 20:19:28,754 - INFO - Processed week 45 of 52
+2025-03-30 20:19:29,152 - INFO - Processed week 46 of 52
+2025-03-30 20:19:29,543 - INFO - Processed week 47 of 52
+2025-03-30 20:19:29,938 - INFO - Processed week 48 of 52
+2025-03-30 20:19:30,341 - INFO - Processed week 49 of 52
+2025-03-30 20:19:30,748 - INFO - Processed week 50 of 52
+2025-03-30 20:19:31,145 - INFO - Processed week 51 of 52
+2025-03-30 20:19:31,535 - INFO - Processed week 52 of 52
+2025-03-30 20:19:34,441 - INFO - Simulation completed
+2025-03-30 21:38:10,141 - INFO - Power stations file regenerated
+2025-03-30 21:38:10,152 - INFO - Precipitation file regenerated
+2025-03-30 21:38:10,164 - INFO - Prices file regenerated
+2025-03-30 21:38:10,226 - ERROR - Simulation error: 'PowerStationSystem' object has no attribute '_process_buffer'
+2025-03-30 21:43:40,616 - INFO - Power stations file regenerated
+2025-03-30 21:43:40,626 - INFO - Precipitation file regenerated
+2025-03-30 21:43:40,641 - INFO - Prices file regenerated
+2025-03-30 21:43:40,778 - INFO - Processed week 1 of 52
+2025-03-30 21:43:40,882 - INFO - Processed week 2 of 52
+2025-03-30 21:43:40,971 - INFO - Processed week 3 of 52
+2025-03-30 21:43:41,076 - INFO - Processed week 4 of 52
+2025-03-30 21:43:41,170 - INFO - Processed week 5 of 52
+2025-03-30 21:43:41,263 - INFO - Processed week 6 of 52
+2025-03-30 21:43:41,354 - INFO - Processed week 7 of 52
+2025-03-30 21:43:41,451 - INFO - Processed week 8 of 52
+2025-03-30 21:43:41,565 - INFO - Processed week 9 of 52
+2025-03-30 21:43:41,677 - INFO - Processed week 10 of 52
+2025-03-30 21:43:41,806 - INFO - Processed week 11 of 52
+2025-03-30 21:43:41,920 - INFO - Processed week 12 of 52
+2025-03-30 21:43:42,030 - INFO - Processed week 13 of 52
+2025-03-30 21:43:42,133 - INFO - Processed week 14 of 52
+2025-03-30 21:43:42,246 - INFO - Processed week 15 of 52
+2025-03-30 21:43:42,356 - INFO - Processed week 16 of 52
+2025-03-30 21:43:42,467 - INFO - Processed week 17 of 52
+2025-03-30 21:43:42,582 - INFO - Processed week 18 of 52
+2025-03-30 21:43:42,694 - INFO - Processed week 19 of 52
+2025-03-30 21:43:42,808 - INFO - Processed week 20 of 52
+2025-03-30 21:43:42,920 - INFO - Processed week 21 of 52
+2025-03-30 21:43:43,014 - INFO - Processed week 22 of 52
+2025-03-30 21:43:43,141 - INFO - Processed week 23 of 52
+2025-03-30 21:43:43,237 - INFO - Processed week 24 of 52
+2025-03-30 21:43:43,336 - INFO - Processed week 25 of 52
+2025-03-30 21:43:43,429 - INFO - Processed week 26 of 52
+2025-03-30 21:43:43,527 - INFO - Processed week 27 of 52
+2025-03-30 21:43:43,623 - INFO - Processed week 28 of 52
+2025-03-30 21:43:43,717 - INFO - Processed week 29 of 52
+2025-03-30 21:43:43,809 - INFO - Processed week 30 of 52
+2025-03-30 21:43:43,898 - INFO - Processed week 31 of 52
+2025-03-30 21:43:43,989 - INFO - Processed week 32 of 52
+2025-03-30 21:43:44,082 - INFO - Processed week 33 of 52
+2025-03-30 21:43:44,174 - INFO - Processed week 34 of 52
+2025-03-30 21:43:44,268 - INFO - Processed week 35 of 52
+2025-03-30 21:43:44,400 - INFO - Processed week 36 of 52
+2025-03-30 21:43:44,490 - INFO - Processed week 37 of 52
+2025-03-30 21:43:44,580 - INFO - Processed week 38 of 52
+2025-03-30 21:43:44,670 - INFO - Processed week 39 of 52
+2025-03-30 21:43:44,761 - INFO - Processed week 40 of 52
+2025-03-30 21:43:44,854 - INFO - Processed week 41 of 52
+2025-03-30 21:43:44,948 - INFO - Processed week 42 of 52
+2025-03-30 21:43:45,038 - INFO - Processed week 43 of 52
+2025-03-30 21:43:45,129 - INFO - Processed week 44 of 52
+2025-03-30 21:43:45,225 - INFO - Processed week 45 of 52
+2025-03-30 21:43:45,316 - INFO - Processed week 46 of 52
+2025-03-30 21:43:45,410 - INFO - Processed week 47 of 52
+2025-03-30 21:43:45,504 - INFO - Processed week 48 of 52
+2025-03-30 21:43:45,597 - INFO - Processed week 49 of 52
+2025-03-30 21:43:45,691 - INFO - Processed week 50 of 52
+2025-03-30 21:43:45,784 - INFO - Processed week 51 of 52
+2025-03-30 21:43:45,877 - INFO - Processed week 52 of 52
+2025-03-30 21:44:06,955 - INFO - Power stations file regenerated
+2025-03-30 21:44:06,964 - INFO - Precipitation file regenerated
+2025-03-30 21:44:06,977 - INFO - Prices file regenerated
+2025-03-30 21:44:07,029 - INFO - Simulation completed
+2025-03-30 21:44:37,951 - INFO - Power stations file regenerated
+2025-03-30 21:44:37,960 - INFO - Precipitation file regenerated
+2025-03-30 21:44:37,973 - INFO - Prices file regenerated
+2025-03-30 21:44:38,020 - INFO - Simulation completed
+2025-03-30 21:45:01,008 - INFO - Power stations file regenerated
+2025-03-30 21:45:01,018 - INFO - Precipitation file regenerated
+2025-03-30 21:45:01,034 - INFO - Prices file regenerated
+2025-03-30 21:45:01,095 - INFO - Simulation completed
+2025-03-30 21:46:45,847 - INFO - Power stations file regenerated
+2025-03-30 21:46:45,856 - INFO - Precipitation file regenerated
+2025-03-30 21:46:45,869 - INFO - Prices file regenerated
+2025-03-30 21:46:45,936 - INFO - Simulation completed
+2025-03-30 21:48:41,750 - INFO - Power stations file regenerated
+2025-03-30 21:48:41,759 - INFO - Precipitation file regenerated
+2025-03-30 21:48:41,772 - INFO - Prices file regenerated
+2025-03-30 21:48:41,821 - INFO - Simulation completed
+2025-03-30 21:49:33,820 - INFO - Power stations file regenerated
+2025-03-30 21:49:33,828 - INFO - Precipitation file regenerated
+2025-03-30 21:49:33,842 - INFO - Prices file regenerated
+2025-03-30 21:49:33,893 - INFO - Simulation completed
+2025-03-30 21:50:07,344 - INFO - Power stations file regenerated
+2025-03-30 21:50:07,353 - INFO - Precipitation file regenerated
+2025-03-30 21:50:07,367 - INFO - Prices file regenerated
+2025-03-30 21:50:07,407 - INFO - Simulation completed
+2025-03-30 21:51:06,537 - INFO - Power stations file regenerated
+2025-03-30 21:51:06,547 - INFO - Precipitation file regenerated
+2025-03-30 21:51:06,560 - INFO - Prices file regenerated
+2025-03-30 21:51:06,604 - INFO - Simulation completed
+2025-03-30 21:52:49,334 - INFO - Power stations file regenerated
+2025-03-30 21:52:49,344 - INFO - Precipitation file regenerated
+2025-03-30 21:52:49,357 - INFO - Prices file regenerated
+2025-03-30 21:52:49,405 - INFO - Simulation completed
+2025-03-30 21:54:19,723 - INFO - Power stations file regenerated
+2025-03-30 21:54:19,733 - INFO - Precipitation file regenerated
+2025-03-30 21:54:19,747 - INFO - Prices file regenerated
+2025-03-30 21:54:19,795 - INFO - Simulation completed
+2025-03-30 21:54:35,337 - INFO - Power stations file regenerated
+2025-03-30 21:54:35,347 - INFO - Precipitation file regenerated
+2025-03-30 21:54:35,362 - INFO - Prices file regenerated
+2025-03-30 21:54:35,406 - INFO - Simulation completed
+2025-03-30 21:55:13,293 - INFO - Power stations file regenerated
+2025-03-30 21:55:13,303 - INFO - Precipitation file regenerated
+2025-03-30 21:55:13,317 - INFO - Prices file regenerated
+2025-03-30 21:55:13,368 - INFO - Simulation completed
+2025-03-30 21:55:43,191 - INFO - Power stations file regenerated
+2025-03-30 21:55:43,202 - INFO - Precipitation file regenerated
+2025-03-30 21:55:43,215 - INFO - Prices file regenerated
+2025-03-30 21:55:43,263 - INFO - Simulation completed
+2025-03-30 22:16:50,624 - INFO - Power stations file regenerated
+2025-03-30 22:16:50,633 - INFO - Precipitation file regenerated
+2025-03-30 22:16:50,646 - INFO - Prices file regenerated
+2025-03-30 22:16:50,699 - INFO - Simulation completed
+2025-03-30 22:18:38,169 - INFO - Power stations file regenerated
+2025-03-30 22:18:38,179 - INFO - Precipitation file regenerated
+2025-03-30 22:18:38,192 - INFO - Prices file regenerated
+2025-03-30 22:18:38,248 - INFO - Simulation completed
+2025-03-30 22:19:12,793 - INFO - Power stations file regenerated
+2025-03-30 22:19:12,803 - INFO - Precipitation file regenerated
+2025-03-30 22:19:12,817 - INFO - Prices file regenerated
+2025-03-30 22:19:12,876 - INFO - Simulation completed
+2025-03-30 22:21:17,031 - INFO - Power stations file regenerated
+2025-03-30 22:21:17,042 - INFO - Precipitation file regenerated
+2025-03-30 22:21:17,056 - INFO - Prices file regenerated
+2025-03-30 22:21:19,888 - INFO - Simulation completed
+2025-03-30 22:21:41,677 - INFO - Power stations file regenerated
+2025-03-30 22:21:41,689 - INFO - Precipitation file regenerated
+2025-03-30 22:21:41,704 - INFO - Prices file regenerated
+2025-03-30 22:21:41,769 - INFO - Simulation completed
+2025-03-30 22:23:13,728 - INFO - Power stations file regenerated
+2025-03-30 22:23:13,739 - INFO - Precipitation file regenerated
+2025-03-30 22:23:13,753 - INFO - Prices file regenerated
+2025-03-30 22:23:13,954 - INFO - Processed week 1 of 52
+2025-03-30 22:23:14,106 - INFO - Processed week 2 of 52
+2025-03-30 22:23:14,266 - INFO - Processed week 3 of 52
+2025-03-30 22:23:14,433 - INFO - Processed week 4 of 52
+2025-03-30 22:23:14,598 - INFO - Processed week 5 of 52
+2025-03-30 22:23:14,749 - INFO - Processed week 6 of 52
+2025-03-30 22:23:14,903 - INFO - Processed week 7 of 52
+2025-03-30 22:23:15,063 - INFO - Processed week 8 of 52
+2025-03-30 22:23:15,232 - INFO - Processed week 9 of 52
+2025-03-30 22:23:15,379 - INFO - Processed week 10 of 52
+2025-03-30 22:23:15,531 - INFO - Processed week 11 of 52
+2025-03-30 22:23:15,678 - INFO - Processed week 12 of 52
+2025-03-30 22:23:15,833 - INFO - Processed week 13 of 52
+2025-03-30 22:23:15,980 - INFO - Processed week 14 of 52
+2025-03-30 22:23:16,130 - INFO - Processed week 15 of 52
+2025-03-30 22:23:16,281 - INFO - Processed week 16 of 52
+2025-03-30 22:23:16,436 - INFO - Processed week 17 of 52
+2025-03-30 22:23:16,587 - INFO - Processed week 18 of 52
+2025-03-30 22:23:16,746 - INFO - Processed week 19 of 52
+2025-03-30 22:23:16,893 - INFO - Processed week 20 of 52
+2025-03-30 22:23:17,050 - INFO - Processed week 21 of 52
+2025-03-30 22:23:17,196 - INFO - Processed week 22 of 52
+2025-03-30 22:23:17,364 - INFO - Processed week 23 of 52
+2025-03-30 22:23:17,516 - INFO - Processed week 24 of 52
+2025-03-30 22:23:17,662 - INFO - Processed week 25 of 52
+2025-03-30 22:23:17,811 - INFO - Processed week 26 of 52
+2025-03-30 22:23:28,432 - INFO - Power stations file regenerated
+2025-03-30 22:23:28,442 - INFO - Precipitation file regenerated
+2025-03-30 22:23:28,456 - INFO - Prices file regenerated
+2025-03-30 22:23:28,517 - INFO - Simulation completed
+2025-03-30 22:24:55,133 - INFO - Power stations file regenerated
+2025-03-30 22:24:55,143 - INFO - Precipitation file regenerated
+2025-03-30 22:24:55,156 - INFO - Prices file regenerated
+2025-03-30 22:24:55,215 - INFO - Simulation completed
+2025-03-30 22:25:17,184 - INFO - Power stations file regenerated
+2025-03-30 22:25:17,194 - INFO - Precipitation file regenerated
+2025-03-30 22:25:17,208 - INFO - Prices file regenerated
+2025-03-30 22:25:17,272 - INFO - Simulation completed
+2025-03-30 22:26:13,781 - INFO - Power stations file regenerated
+2025-03-30 22:26:13,791 - INFO - Precipitation file regenerated
+2025-03-30 22:26:13,804 - INFO - Prices file regenerated
+2025-03-30 22:26:13,871 - INFO - Simulation completed
+2025-03-30 22:28:37,727 - INFO - Power stations file regenerated
+2025-03-30 22:28:37,737 - INFO - Precipitation file regenerated
+2025-03-30 22:28:37,750 - INFO - Prices file regenerated
+2025-03-30 22:28:37,891 - INFO - Processed week 1 of 52
+2025-03-30 22:28:37,982 - INFO - Processed week 2 of 52
+2025-03-30 22:28:38,076 - INFO - Processed week 3 of 52
+2025-03-30 22:28:38,168 - INFO - Processed week 4 of 52
+2025-03-30 22:28:38,253 - INFO - Processed week 5 of 52
+2025-03-30 22:28:38,350 - INFO - Processed week 6 of 52
+2025-03-30 22:28:38,436 - INFO - Processed week 7 of 52
+2025-03-30 22:28:38,525 - INFO - Processed week 8 of 52
+2025-03-30 22:28:38,637 - INFO - Processed week 9 of 52
+2025-03-30 22:28:38,736 - INFO - Processed week 10 of 52
+2025-03-30 22:28:38,830 - INFO - Processed week 11 of 52
+2025-03-30 22:28:38,925 - INFO - Processed week 12 of 52
+2025-03-30 22:28:39,026 - INFO - Processed week 13 of 52
+2025-03-30 22:28:39,110 - INFO - Processed week 14 of 52
+2025-03-30 22:28:39,199 - INFO - Processed week 15 of 52
+2025-03-30 22:28:39,274 - INFO - Processed week 16 of 52
+2025-03-30 22:28:39,356 - INFO - Processed week 17 of 52
+2025-03-30 22:28:39,438 - INFO - Processed week 18 of 52
+2025-03-30 22:28:39,530 - INFO - Processed week 19 of 52
+2025-03-30 22:28:39,619 - INFO - Processed week 20 of 52
+2025-03-30 22:28:39,710 - INFO - Processed week 21 of 52
+2025-03-30 22:28:39,806 - INFO - Processed week 22 of 52
+2025-03-30 22:28:39,921 - INFO - Processed week 23 of 52
+2025-03-30 22:28:40,013 - INFO - Processed week 24 of 52
+2025-03-30 22:28:40,097 - INFO - Processed week 25 of 52
+2025-03-30 22:28:40,182 - INFO - Processed week 26 of 52
+2025-03-30 22:28:40,269 - INFO - Processed week 27 of 52
+2025-03-30 22:28:40,352 - INFO - Processed week 28 of 52
+2025-03-30 22:28:40,438 - INFO - Processed week 29 of 52
+2025-03-30 22:28:40,520 - INFO - Processed week 30 of 52
+2025-03-30 22:28:40,606 - INFO - Processed week 31 of 52
+2025-03-30 22:28:40,688 - INFO - Processed week 32 of 52
+2025-03-30 22:28:40,777 - INFO - Processed week 33 of 52
+2025-03-30 22:28:40,869 - INFO - Processed week 34 of 52
+2025-03-30 22:28:40,957 - INFO - Processed week 35 of 52
+2025-03-30 22:28:41,078 - INFO - Processed week 36 of 52
+2025-03-30 22:28:41,156 - INFO - Processed week 37 of 52
+2025-03-30 22:28:41,236 - INFO - Processed week 38 of 52
+2025-03-30 22:28:41,313 - INFO - Processed week 39 of 52
+2025-03-30 22:28:41,391 - INFO - Processed week 40 of 52
+2025-03-30 22:28:41,472 - INFO - Processed week 41 of 52
+2025-03-30 22:28:41,550 - INFO - Processed week 42 of 52
+2025-03-30 22:28:41,631 - INFO - Processed week 43 of 52
+2025-03-30 22:28:41,709 - INFO - Processed week 44 of 52
+2025-03-30 22:28:41,783 - INFO - Processed week 45 of 52
+2025-03-30 22:28:41,861 - INFO - Processed week 46 of 52
+2025-03-30 22:28:41,942 - INFO - Processed week 47 of 52
+2025-03-30 22:28:42,032 - INFO - Processed week 48 of 52
+2025-03-30 22:28:42,115 - INFO - Processed week 49 of 52
+2025-03-30 22:28:42,199 - INFO - Processed week 50 of 52
+2025-03-30 22:28:42,285 - INFO - Processed week 51 of 52
+2025-03-30 22:28:42,425 - INFO - Processed week 52 of 52
+2025-03-30 22:28:44,416 - INFO - Simulation completed

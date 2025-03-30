@@ -1,0 +1,8 @@
+station_id,name,max_water_level_m3,initial_water_level_m3,loss_coefficient,previous_distance_km,route_loss,delay_intervals
+0,Upper River Station,2500000,1500000,0.999998,0,0.0,0
+1,Green Valley Station,1800000,900000,0.999997,15,0.95,2
+2,White Rock Station,1200000,600000,0.999996,20,0.93,3
+3,Blue Lake Station,1500000,750000,0.999991,10,0.97,1
+4,Great Falls Station,2000000,1000000,0.999989,25,0.94,4
+5,The Storms Station,1600000,800000,0.999997,18,0.96,2
+6,Final Reservoir Station,2200000,1100000,0.999995,12,0.95,3
